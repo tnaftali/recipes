@@ -1,0 +1,21 @@
+# Paid product — never publish
+👨‍🍳 Recipes.md
+
+# macOS
+.DS_Store
+
+# Photo masters + unused source files: keep local, keep out of the public site.
+# Publish only the derived web images the page references.
+images/*
+!images/hero.jpg
+!images/dish-1.jpg
+!images/dish-2.jpg
+!images/dish-3.jpg
+!images/dish-4.jpg
+!images/dish-5.jpg
+!images/dish-6.jpg
+!images/dish-7.jpg
+!images/dish-8.jpg
+!images/portrait.jpg
+!images/portrait-large.jpg
+!images/saved-reels.jpg
