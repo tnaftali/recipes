@@ -134,6 +134,10 @@
   .hero .clarity b { color: var(--clay-ink); font-weight: 600; }
   .hero-cta { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
   .hero-cta .micro { font-size: 13.5px; color: var(--muted); }
+  .offer-pill { display: inline-flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--clay-ink); background: color-mix(in srgb, var(--clay) 12%, var(--surface)); border: 1px solid color-mix(in srgb, var(--clay) 32%, var(--line)); padding: 7px 13px; border-radius: 999px; margin: 0 0 20px; }
+  .offer-pill b { color: var(--clay); font-weight: 700; }
+  .price-badge { display: inline-block; font-size: 12.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #FCF7EF; background: var(--clay); padding: 6px 14px; border-radius: 999px; margin: 0 0 16px; }
+  .price-tag .save { font-size: 13px; font-weight: 600; color: var(--olive); letter-spacing: .02em; align-self: center; }
 
   .byline { display: flex; align-items: center; gap: 13px; margin-top: 40px; padding-top: 26px; border-top: 1px solid var(--line); max-width: 40ch; }
   .byline img { width: 48px; height: 48px; border-radius: 50%; flex: none; object-fit: cover; border: 1px solid var(--line); }
@@ -290,6 +294,7 @@
       <h1>Recipes I <em>actually cook.</em></h1>
       <p class="lede">180+ Instagram recipes I've saved, cooked, and would make again. Organized so you can find something for dinner instead of scrolling.</p>
       <p class="clarity">📌 It's a list of <b>links</b> to the original <b>videos</b> — not written recipe cards.</p>
+      <p class="offer-pill">Launch offer · <b>30% off</b></p>
       <div class="hero-cta">
         <a class="btn" href="#buy">Get the list — €6.99 <span class="strike">€9.99</span></a>
         <span class="micro">One-time. Yours forever.</span>
@@ -402,7 +407,7 @@
       <a class="rcard" href="https://www.instagram.com/reel/DBkWQLoyUZn/" target="_blank" rel="noopener"><span class="idx num">09</span><span class="meta"><span class="cat">Veg &amp; Sides</span><span class="name">Super Crispy Potatoes</span></span><span class="go">↗</span></a>
       <a class="rcard" href="https://www.instagram.com/reel/DW9AIVVjRDb/" target="_blank" rel="noopener"><span class="idx num">10</span><span class="meta"><span class="cat">Dessert</span><span class="name">Pure Fruit Ice Cream</span></span><span class="go">↗</span></a>
     </div>
-    <p class="preview-note">10 of 180+ shown. The rest come with the €6.99.</p>
+    <p class="preview-note">10 of 180+ shown. The rest come with the full list — 30% off right now.</p>
   </div>
 </section>
 
@@ -441,10 +446,11 @@
   <div class="wrap">
     <div class="sec-head" style="text-align:center; margin-inline:auto;">
       <p class="eyebrow">Get it</p>
-      <h2>The whole list, €6.99.</h2>
+      <h2>The whole list — 30% off right now.</h2>
     </div>
     <div class="price-card">
-      <div class="price-tag"><span class="now">€6.99</span><span class="was">€9.99</span></div>
+      <div class="price-badge">Launch offer · 30% off</div>
+      <div class="price-tag"><span class="now">€6.99</span><span class="was">€9.99</span><span class="save">save €3</span></div>
       <p class="per">180+ recipes · one-time payment</p>
       <ul class="price-incl">
         <li><span class="chk">✓</span><span>Private link to all 180+ recipes, each opening its original reel</span></li>
