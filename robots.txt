@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tnaftali.github.io/recipes/sitemap.xml
